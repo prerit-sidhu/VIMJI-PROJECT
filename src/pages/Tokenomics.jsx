@@ -244,7 +244,7 @@ const Tokenomics = () => {
               >
                 <div className="aspect-square max-w-xl mx-auto bg-dark/90 p-6 rounded-2xl shadow-xl border-2 border-gray-700/70">
                   {chartReady ? (
-                    <div className="h-[300px] w-[300px] mx-auto">
+                    <div className="h-[400px] w-[300px] mx-auto">
                       <Pie data={chartData} options={chartOptions} />
                     </div>
                   ) : (
