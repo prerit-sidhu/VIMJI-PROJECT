@@ -5,22 +5,22 @@ react-router-dom>=6.16.0
 framer-motion>=10.16.4
 react-icons>=4.11.0
 gsap>=3.12.2
-@react-three/drei>=9.88.0
-@react-three/fiber>=8.14.5
+react-three/drei>=9.88.0
+react-three/fiber>=8.14.5
 three>=0.157.0
 chart.js>=4.4.0
 react-chartjs-2>=5.2.0
 
 # Solana Dependencies
-@solana/web3.js>=1.87.6
-@solana/wallet-adapter-base>=0.9.23
-@solana/wallet-adapter-react>=0.15.35
-@solana/wallet-adapter-react-ui>=0.9.34
-@solana/wallet-adapter-wallets>=0.19.23
+solana/web3.js>=1.87.6
+solana/wallet-adapter-base>=0.9.23
+solana/wallet-adapter-react>=0.15.35
+solana/wallet-adapter-react-ui>=0.9.34
+solana/wallet-adapter-wallets>=0.19.23
 
 # Build Tools
 vite>=4.5.13
-@vitejs/plugin-react>=4.1.0
+vitejs/plugin-react>=4.1.0
 tailwindcss>=3.3.3
 postcss>=8.4.31
 autoprefixer>=10.4.16
