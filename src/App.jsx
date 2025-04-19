@@ -14,6 +14,7 @@ import Roadmap from './pages/Roadmap';
 import Community from './pages/Community';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop'; // Import the new component
 
 // Import wallet adapter styles - this must come before your own styles
 import '@solana/wallet-adapter-react-ui/styles.css';
@@ -36,6 +37,7 @@ function App() {
       <WalletProvider wallets={wallets} autoConnect>
         <WalletModalProvider>
           <div className="min-h-screen bg-dark text-white">
+            <ScrollToTop /> {/* Add the ScrollToTop component here */}
             <Navbar />
             <Routes>
               <Route path="/" element={<Home />} />
