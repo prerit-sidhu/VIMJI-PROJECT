@@ -1,0 +1,37 @@
+/* Add this to your existing CSS */
+.wallet-adapter-button {
+  background-color: var(--primary-color) !important;
+  border: none !important;
+  color: white !important;
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 600 !important;
+  border-radius: 0.5rem !important;
+  padding: 0.5rem 1.25rem !important;
+  transition: all 0.3s ease !important;
+}
+
+.wallet-adapter-button:hover {
+  background-color: var(--primary-color-dark) !important;
+  transform: translateY(-2px) !important;
+}
+
+.wallet-adapter-button:active {
+  transform: translateY(0) !important;
+}
+
+.wallet-adapter-modal {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.wallet-adapter-modal-wrapper {
+  background-color: #121212 !important;
+  border: 2px solid rgba(107, 114, 128, 0.5) !important;
+}
+
+.wallet-adapter-modal-button-close {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.wallet-adapter-modal-title {
+  color: white !important;
+}
